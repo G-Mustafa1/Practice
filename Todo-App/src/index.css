@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.ul::-webkit-scrollbar {
+    /* display: none; */
+    /* display: flex; */
+    width: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    /* overflow: hidden; */
+}
+
+.ul::-webkit-scrollbar-thumb {
+    background-color: #7b8485;
+    border-radius: 10px;
+}
