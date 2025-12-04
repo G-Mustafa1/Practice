@@ -18,7 +18,7 @@ export default function Footer({ refs , scrollSection}) {
                 </a>
               </li>
               <li>
-                <a onClick={() => scrollSection(refs.abouRef)} className="text-gray-400 hover:text-white transition">
+                <a onClick={() => scrollSection(refs.aboutRef)} className="text-gray-400 hover:text-white transition">
                   About
                 </a>
               </li>

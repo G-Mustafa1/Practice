@@ -35,7 +35,7 @@ function App() {
   }, [])
 
   const scrollTo = (ref) => {
-    ref.current.scrollIntoView({ behavior: "smooth" })
+    ref?.current?.scrollIntoView({ behavior: "smooth" })
   }
 
   const refs = { homeRef, aboutRef, menuRef, contactRef }
