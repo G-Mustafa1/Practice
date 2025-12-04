@@ -4,5 +4,9 @@
 # Dynamic-Product
 [Click Here](https://practice-uqtf.vercel.app/) 
 
-# Ecommerce
+# Ecommerce Web
 [Click Here](https://practice-ecommerce-ecru.vercel.app/)
+
+# Restaurant Web
+[Click Here](https://practice-resturant.vercel.app/)
+
