@@ -22,7 +22,7 @@ const CartDetail = ({cart, handleRemoveProduct, addProduct, removeQuantity, clea
                         className="flex flex-col sm:flex-row gap-4 p-4 rounded-lg border bg-card"
                     >
                         <img
-                            src={item.images[1]}
+                            src={item.images[1] || item.images[0]}
                             alt={item.title}
                             className="w-24 h-24 object-cover rounded-md mx-auto sm:mx-0"
                         />
@@ -36,7 +36,7 @@ const CartDetail = ({cart, handleRemoveProduct, addProduct, removeQuantity, clea
                                             {item.title}
                                         </h3>
                                         <span className="text-gray-400 text-sm">
-                                            ({item.category.name})
+                                            ({item.category})
                                         </span>
                                     </div>
 
