@@ -134,7 +134,7 @@ const CheckOut = () => {
                   </p>
                 </div>
                 <img
-                  src={item.images[2]}
+                  src={item.images[2] || item.images[0]}
                   alt={item.title}
                   className="w-16 h-16 object-cover rounded-lg"
                 />
