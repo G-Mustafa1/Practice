@@ -43,7 +43,7 @@ const Footer = () => {
                 <div>
                     <h3 className="text-lg font-semibold text-black mb-4">Customer Support</h3>
                     <ul className="space-y-3 text-sm">
-                        <li>Email: support@mustafashop.com</li>
+                        <li>Email: gmustufa1255@gmail.com</li>
                         <li>Phone: +92 300 1234567</li>
                         <li>Working Hours: 9am - 10pm</li>
                         <li className="hover:text-[#0d98a5] cursor-pointer">FAQ</li>
