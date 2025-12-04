@@ -45,7 +45,7 @@ export default function Navbar({ scrollTo, refs, activeSection }) {
 
         {/* Mobile Menu */}
         {open && (
-          <div className="md:hidden bg-white shadow-lg rounded-lg mt-2 py-4">
+          <div className={`md:hidden text-gray-700 bg-white shadow-lg rounded-lg mt-2 py-4 ${scrolled ? "bg-transparent" : "bg-black"}`}>
             <ul className="flex flex-col space-y-2 px-4">
               {["home","about","menu","contact"].map((section) => (
                 <li key={section} className="cursor-pointer hover:text-primary"
